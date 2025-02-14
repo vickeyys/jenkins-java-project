@@ -30,12 +30,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://54.89.92.200:8081/repository/nexus/</url>
+		    <url>http://54.226.195.128:8081/repository/netflix/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://54.89.92.200:8081/repository/nexus/</url>
+		    <url>http://54.226.195.128:8081/repository/netflix/</url>
 		</repository>
   	</distributionManagement>
 	
