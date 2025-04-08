@@ -18,22 +18,21 @@
     </properties>
 
     <dependencies>
-        <!-- Add your other dependencies here -->
+        <!-- Your actual app dependencies -->
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Maven WAR Plugin with xstream exclusion -->
+            <!-- Maven WAR Plugin with xstream excluded -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.4.0</version> <!-- A stable version -->
+                <version>3.4.0</version>
                 <dependencies>
                     <dependency>
                         <groupId>com.thoughtworks.xstream</groupId>
                         <artifactId>xstream</artifactId>
                         <version>1.3.1</version>
-                        <scope>provided</scope>
                         <exclusions>
                             <exclusion>
                                 <groupId>com.thoughtworks.xstream</groupId>
@@ -43,7 +42,6 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <!-- Optional war config -->
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
