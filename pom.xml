@@ -9,7 +9,7 @@
     <version>1.0.0</version>
     <packaging>war</packaging>
 
-    <name>Your Web Applcation</name>
+    <name>Your Web Appkkklcation</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
